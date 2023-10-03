@@ -10,10 +10,10 @@
 
 - Dichiarare un numero casuale
   - Dichiarare una variabile "randomNumber a cui assegneremo un numero casuale
+  
 - Formare una concatenazione
-
   - Dichiarare una variabile "randomPassword" che racchiuderà la concatenazione (nome + colore preferito + numero casuale)
 
 - Scrivere sulla pagina il risultato della concatenazione 
   - Dichiarare una variabile che richiami l'elemento con id "password" del DOM
-  - Aggiungere tramite la proprietà .innerHTML la stringa racchiusa nella variabile 
+  - Aggiungere tramite la proprietà .innerHTML la stringa racchiusa nella variabile "randomPassword" correzioni refusiall'elemento con id="password"
