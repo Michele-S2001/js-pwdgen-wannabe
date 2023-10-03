@@ -4,6 +4,10 @@
   - Dichiarare una variabile "userName" con valore assegnato tramite un metodo prompt
   - Specificare nel prompt che vogliamo il nome dell'utente
 
+- Chiedere il cognome dell'utente
+  - Dichiarare una variabile "userSurname" con valore assegnato tramite un metodo prompt
+  - Specificare nel prompt che vogliamo sapere il suo cognome
+
 - Chiedere il colore preferito dell'utente
   - Dichiarare una variabile "userFavoriteColor" con valore assegnato tramite un metodo prompt
   - Specificare nel prompt che vogliamo sapere il suo colore preferito
