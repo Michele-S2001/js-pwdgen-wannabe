@@ -19,5 +19,5 @@
   - Dichiarare una variabile "randomPassword" che racchiuderà la concatenazione (nome + cognome + colore preferito + numero casuale)
 
 - Scrivere sulla pagina il risultato della concatenazione 
-  - Dichiarare una variabile che richiami l'elemento con id "password" del DOM
-  - Aggiungere tramite la proprietà .innerHTML la stringa racchiusa nella variabile "randomPassword" correzioni refusiall'elemento con id="password"
+  - Dichiarare una variabile "passwordDomElement" che richiami l'elemento con id "password" del DOM
+  - Tramite la proprietà .innerHTML applicata al passwordDomElement aggiungere la stringa racchiusa nella variabile "randomPassword" 
