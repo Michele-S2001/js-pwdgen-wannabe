@@ -18,12 +18,12 @@ const userFavoriteColor = prompt('Inserisci poi il tuo colore preferito:');
 let randomNumberGenerator = parseInt(Math.random() * 100);
 
 // - Formare una concatenazione
-  // - Dichiarare una variabile "randomPassword" che racchiuderà la concatenazione (nome + colore preferito + numero casuale)
+  // - Dichiarare una variabile "randomPassword" che racchiuderà la concatenazione (nome + cognome + colore preferito + numero casuale)
 const randomPassword = userName + userSurname + userFavoriteColor + randomNumberGenerator;
 
 // - Scrivere sulla pagina il risultato della concatenazione 
   // - Dichiarare una variabile che richiami l'elemento con id "password" del DOM
 const passwordDomElement = document.getElementById('password');
 
-  // - Aggiungere tramite la proprietà .innerHTML la stringa racchiusa nella variabile 
+  // - Tramite la proprietà .innerHTML applicata al passwordDomElement aggiungere la stringa racchiusa nella variabile "randomPassword" 
 passwordDomElement.innerHTML = randomPassword;
