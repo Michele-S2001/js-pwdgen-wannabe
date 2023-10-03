@@ -13,10 +13,10 @@
   - Specificare nel prompt che vogliamo sapere il suo colore preferito
 
 - Dichiarare un numero casuale
-  - Dichiarare una variabile "randomNumber a cui assegneremo un numero casuale
+  - Dichiarare una variabile "randomNumber" a cui assegneremo un numero casuale
   
 - Formare una concatenazione
-  - Dichiarare una variabile "randomPassword" che racchiuderà la concatenazione (nome + colore preferito + numero casuale)
+  - Dichiarare una variabile "randomPassword" che racchiuderà la concatenazione (nome + cognome + colore preferito + numero casuale)
 
 - Scrivere sulla pagina il risultato della concatenazione 
   - Dichiarare una variabile che richiami l'elemento con id "password" del DOM
