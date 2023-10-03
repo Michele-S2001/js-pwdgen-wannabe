@@ -3,6 +3,11 @@
   // - Specificare nel prompt che vogliamo il nome dell'utente
 const userName = prompt('Inserisci qui sotto il tuo nome:');
 
+//- Chiedere il cognome dell'utente
+  //- Dichiarare una variabile "userSurname" con valore assegnato tramite un metodo prompt
+  //- Specificare nel prompt che vogliamo sapere il suo cognome
+  const userSurname = prompt('Inserisci qui sotto il tuo cognome:');
+
 // - Chiedere il colore preferito dell'utente
   // - Dichiarare una variabile "userFavoriteColor" con valore assegnato tramite un metodo prompt
   // - Specificare nel prompt che vogliamo sapere il suo colore preferito
@@ -10,11 +15,11 @@ const userFavoriteColor = prompt('Inserisci poi il tuo colore preferito:');
 
 // - Dichiarare un numero casuale
   // - Dichiarare una variabile "randomNumber a cui assegneremo un numero casuale
-let randomNumber = 13;
+let randomNumber = 21;
 
 // - Formare una concatenazione
   // - Dichiarare una variabile "randomPassword" che racchiuderà la concatenazione (nome + colore preferito + numero casuale)
-const randomPassword = userName + userFavoriteColor + randomNumber;
+  const randomPassword = userName + userSurname + userFavoriteColor + randomNumber;
 
 // - Scrivere sulla pagina il risultato della concatenazione 
   // - Dichiarare una variabile che richiami l'elemento con id "password" del DOM
